@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'spliter'
+
+if ARGV.empty? || ARGV.include?('-h') || ARGV.include?('--help')
+  puts "spliter"
+  puts "spliter arquivo << arrasta o arquivo que quer dividir"
+  exit
+else
+  Spliter
+  puts "Done"
+end
