@@ -48,7 +48,7 @@ class Spliter
 
 		for row in 1..(row_per_file+helper)
 			for column in 0..column_count
-				roo_worksheet.add_cell(row,column,input.cell(copied_rows+1,column+1))
+				roo_worksheet.add_cell(row,column,input.cell(copied_rows+1,column+1).to_s)
 			end
 			copied_rows = copied_rows + 1
 			row_count_this = row_count_this + 1
