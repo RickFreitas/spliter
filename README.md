@@ -2,10 +2,11 @@
 xlsx spliter
 
 
-Ruby version  > 2.3 
-              < 2.7
+Ruby version  2.6.5
               
 gem install bundle
+
+gem uninstall spliter
 
 gem install spliter
 
